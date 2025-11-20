@@ -1,70 +1,85 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# 📝 To-Do List App — Final Project Frontend Staff Muda HMDTIF
 
-In the project directory, you can run:
+Proyek ini merupakan **project akhir sebagai Frontend Developer** dalam program **Staff Muda HMDTIF**. Aplikasi yang dibuat adalah **To-Do List Web App** menggunakan **React.js** dengan styling **Tailwind CSS**.
 
-### `npm start`
+Aplikasi ini dibuat untuk melatih kemampuan frontend, terutama dalam pengelolaan state, komponen, event handling, serta implementasi utility-first styling menggunakan Tailwind.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tech Stack
 
-### `npm test`
+* **React.js** — UI library untuk membangun komponen interaktif
+* **Tailwind CSS** — CSS utility-first untuk styling cepat dan konsisten
+* **JavaScript**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Fitur Utama
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* ➕ Tambah task baru
+* 🗑️ Hapus task
+* 💾 Data tersimpan secara lokal (local state)
+* 📱 Responsive design menggunakan Tailwind
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📂 Struktur Project (Singkat)
 
-### `npm run eject`
+```
+src/
+│── components/
+│     ├── TodoList.js
+│     ├── TodoItem.js
+│── App.js
+│── App.css
+│── index.css
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Cara Menjalankan Project
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clone repositori:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   git clone https://github.com/adityarajadn/todo-app.git
+   
+2. Masuk ke folder project:
 
-## Learn More
+   cd todo-app
+   
+3. Install dependencies:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   npm install
+   
+4. Jalankan aplikasi:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   npm run dev
+   
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📸 Preview
 
-### Analyzing the Bundle Size
+> ![preview](./img/preview.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 🧑‍💻 About This Project
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Project ini bertujuan untuk:
 
-### Advanced Configuration
+* Menguji pemahaman frontend development
+* Mengimplementasikan React hooks dan komponen
+* Memperkuat praktik styling modern dengan Tailwind
+* Membangun aplikasi kecil namun fungsional sebagai portofolio
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 🤝 Kontribusi
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Project ini dibuat sebagai tugas individu. Namun jika ingin memberi masukan, kritik, atau saran, sangat dipersilakan melalui pull request atau issue.
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---

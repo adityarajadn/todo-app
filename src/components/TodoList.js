@@ -9,11 +9,11 @@ function TodoList() {
   const [tasks, setTasks] = useState([
     { 
         id: 1, // ID unik untuk task pertama
-        text: 'Doctor Appointment', // Text deskripsi task
+        text: 'Tugas 1', // Text deskripsi task
         completed: true }, // Status task sudah selesai
     { 
         id: 2, // ID unik untuk task kedua
-        text: 'Meeting at School', // Text deskripsi task
+        text: 'tugas 2', // Text deskripsi task
         completed: false }, // Status task belum selesai
   ]);
 
